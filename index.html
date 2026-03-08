@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mi Portfolio Dev</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="nav-brand">Tu Nombre</div>
+
+<button class="nav-toggle">☰</button>
+
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contacto</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+
+<img src="https://via.placeholder.com/150" class="hero-img">
+
+<h1>Tu Nombre</h1>
+
+<p class="hero-subtitle">
+Estudiante de Desarrollo Web
+</p>
+
+<a href="#contact" class="btn">Contáctame</a>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+
+<h2>Sobre Mí</h2>
+
+<p>
+Soy estudiante de desarrollo web.
+Me apasiona crear soluciones tecnológicas.
+</p>
+
+<p>
+Actualmente estoy aprendiendo
+HTML, CSS y JavaScript.
+</p>
+
+<ul class="about-interests">
+<li>🎯 Desarrollo Web</li>
+<li>🎨 Diseño UI</li>
+<li>🤖 Inteligencia Artificial</li>
+<li>📱 Apps</li>
+</ul>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+<h2>Mis Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">
+<h3>HTML</h3>
+<p>Estructura web</p>
+</div>
+
+<div class="skill-card">
+<h3>CSS</h3>
+<p>Diseño responsive</p>
+</div>
+
+<div class="skill-card">
+<h3>JavaScript</h3>
+<p>Interactividad</p>
+</div>
+
+<div class="skill-card">
+<h3>Git</h3>
+<p>Control de versiones</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+
+<h2>Mis Proyectos</h2>
+
+<div class="projects-container">
+
+<article class="project-card">
+<h3>Mi Portfolio</h3>
+<p>Sitio web personal</p>
+<a href="#" class="btn">Ver Proyecto</a>
+</article>
+
+<article class="project-card">
+<h3>Calculadora JS</h3>
+<p>Calculadora interactiva</p>
+<a href="#" class="btn">Ver Proyecto</a>
+</article>
+
+<article class="project-card">
+<h3>Landing Page</h3>
+<p>Landing responsive</p>
+<a href="#" class="btn">Ver Proyecto</a>
+</article>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Contacto</h2>
+
+<form id="contact-form">
+
+<div class="form-group">
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" required>
+</div>
+
+<div class="form-group">
+<label for="mensaje">Mensaje</label>
+<textarea id="mensaje" rows="4" required></textarea>
+</div>
+
+<button type="submit" class="btn">
+Enviar
+</button>
+
+</form>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<p>Ramiro Castillo — Desarrollador Web</p>
+
+<p>
+<a href="#">GitHub</a> |
+<a href="#">LinkedIn</a>
+</p>
+
+<p>© 2026</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
