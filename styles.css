@@ -233,3 +233,15 @@ padding:4rem 2rem;
 }
 
 }
+.form-feedback{
+margin-top:1rem;
+font-weight:600;
+}
+
+.form-feedback.success{
+color:#16a34a;
+}
+
+.form-feedback.error{
+color:#dc2626;
+}
